@@ -1,0 +1,121 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../miq.autogen.hfst
+    Morph: ../miq.automorf.hfst
+Tests:
+  Adjectives: {}
+  Categories of Words Used Above:
+    kau<adv>:
+    - kau
+    mana<adj>:
+    - mana
+    pali<adj>:
+    - pali
+    sirpi<adj>:
+    - sirpi
+    wal<post>:
+    - wal
+    wiria<adv>:
+    - wiria
+  Comparative Adjectives: {}
+  Determiners/Articles:
+    aian<n>:
+    - aian
+    ap<det><ind>:
+    - ap
+    aras<n>:
+    - aras
+    ba<det><def><dst>:
+    - ba
+    bip<n>:
+    - bip
+    daktar<n>:
+    - daktar
+    gul<n>:
+    - gul
+    ilili<n>:
+    - ilili
+    kum kum<det><ind>:
+    - kum kum
+    luhpia<n>:
+    - luhpia
+    na<det><def><prx>:
+    - na
+    sika<n>:
+    - sika
+  Gender:
+    mairin<det><hu><f>:
+    - mairin
+    wainhka<det><hu><m>:
+    - wainhka
+    waitna<det><nh><m>:
+    - waitna
+  Miskito Verb Tenses: {}
+  Nouns: {}
+  Parts of Speech: {}
+  Personal Pronouns:
+    man<prn><p2>:
+    - man
+    witin<prn><p3>:
+    - witin
+    yang<prn><p1>:
+    - yang
+    yawan<prn><p1><pl>:
+    - yawan
+  Plural:
+    nani<det><pl><def>:
+    - nani
+  Plural and Gender: {}
+  Present 1:
+    aiwanaia<v><pprs><p1>:
+    - aiwanuna
+    aiwanaia<v><pprs><p2>:
+    - aiwanuma
+    aiwanaia<v><pprs><p3>:
+    - aiwanuya
+    piaia<v><pprs><p1>:
+    - pisuna
+    piaia<v><pprs><p2>:
+    - pisuma
+    piaia<v><pprs><p3>:
+    - pisuya
+  Present 2:
+    alkaia<v><pres><p1>:
+    - alkisna
+    alkaia<v><pres><p2>:
+    - alkisma
+    alkaia<v><pres><p3>:
+    - alkisa
+    briaia<v><pres><p1>:
+    - brisna
+    briaia<v><pres><p2>:
+    - brisma
+    briaia<v><pres><p3>:
+    - brisa
+  References: {}
+  Simple Past:
+    buaia<v><past><p1>:
+    - buri
+    buaia<v><past><p2>:
+    - buram
+    buaia<v><past><p3>:
+    - buan
+    diaia<v><past><p1>:
+    - diri
+    diaia<v><past><p2>:
+    - diram
+    diaia<v><past><p3>:
+    - din
+    prukaia<v><past><p1>:
+    - prukri
+    prukaia<v><past><p2>:
+    - prukram
+    prukaia<v><past><p3>:
+    - prukan
+    pulaia<v><past><p1>:
+    - pulri
+    pulaia<v><past><p2>:
+    - pulram
+    pulaia<v><past><p3>:
+    - pulan

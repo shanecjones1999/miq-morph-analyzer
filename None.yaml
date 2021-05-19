@@ -1,0 +1,76 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../None.autogen.hfst
+    Morph: ../None.automorf.hfst
+Tests:
+  Adjectives: {}
+  Comparative Adjectives:
+    Gul<n><sg><def><dst><comp><adj>:
+    - Gul ba kau mana sa aian wal
+    Nikarawa<n><sg><def><dst><comp><adj>:
+    - Utla ba kau wiria sirpi sa dus wal
+    Sika<n><sg><def><dst><comp><adj>:
+    - Sika ba nit pali sa daktar baku
+  Determiners/Articles:
+    aras<n><sg><def><dst>:
+    - aras ba
+    aras<n><sg><def><prx>:
+    - aras na
+    aras<n><sg><ind>:
+    - aras kum kum
+  Gender:
+    aras<n><f><sg><def><dst>:
+    - aras mairin ba
+    aras<n><m><sg><def><prx>:
+    - aras wainhka na
+    tuktan<n><m><sg><def><dst>:
+    - tuktan waitna ba
+  Miskito Past Tense: {}
+  Nouns: {}
+  Parts of Speech: {}
+  Plural:
+    aras<n><pl><def><dst>:
+    - aras nani ba
+    ilili<n><pl><def><dst>:
+    - ilili nani ba
+    luhpia<n><pl><def><dst>:
+    - luhpia nani ba
+  Plural and Gender:
+    aras<n><m><pl><def><prx>:
+    - aras wainhka nani na
+    bip<n><f><pl><def><dst>:
+    - bip mairin nani ba
+    tuktan<n><m><pl><def><dst>:
+    - tuktan waitna nani ba
+  Simple Past:
+    buaia<v><past><p1>:
+    - buri
+    buaia<v><past><p2>:
+    - buram
+    buaia<v><past><p3>:
+    - buan
+    diaia<v><past><p1>:
+    - diri
+    diaia<v><past><p2>:
+    - diram
+    diaia<v><past><p3>:
+    - din
+    prukaia<v><past><p1>:
+    - prukri
+    prukaia<v><past><p2>:
+    - prukram
+    prukaia<v><past><p3>:
+    - prukan
+    pulaia<v><past><p1><sg>:
+    - pulri
+    pulaia<v><past><p2><sg>:
+    - pulram
+    pulaia<v><past><p3><sg>:
+    - pulan
+    pulaia<v><past><p4><pl>:
+    - yang nani pulri
+    pulaia<v><past><p5><pl>:
+    - man nani pulram
+    pulaia<v><past><p6><pl>:
+    - witin nani pulan

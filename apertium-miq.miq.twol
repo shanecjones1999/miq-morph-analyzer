@@ -1,0 +1,40 @@
+Alphabet
+ A Â B D H I Î K L M N G P Q R S T U Û W Y
+ a â b d h i î k l m n g p q r s t u û w y
+
+ %>:0
+ %{A%}:a  %{A%}:0
+ %{S%}:s  %{S%}:0
+ %{I%}:i  %{I%}:0 ;
+
+
+Sets
+
+Vowel = A Â I Î U Û
+        a â i î u û ;
+
+Rules
+
+"a outputs as nothing after i-stem verbs"
+%{A%}:0 <=> [ :Vowel - :u ] %>: _ ;
+
+"S outputs as nothing after i-stem verbs"
+%{S%}:s <=> [ :Vowel - :u ] %>: _ ;
+
+"I outputs as nothing after vowels"
+%{I%}:0 <=> :Vowel %>: _ ;
+
+!"A outputs as i before ka"
+!%{a%}:i <=> _ :{ka} %>: ;
+
+! "Remove suffix vowel with vowel-ending stem"
+! i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+
+! Resources:
+! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! https://github.com/hfst/
+! http://wiki.apertium.org/wiki/Twol
+! http://wiki.apertium.org/wiki/Hfst
+
+! https://omniglot.com/writing/miskito.htm

@@ -1,0 +1,559 @@
+
+# Part of speech categories
+# <n>      # Noun
+# <v>      # Verb
+# <adj>    # Adjective
+# <prn>    # Pronoun
+
+# <pos>    # Possessive
+# <geN>    # Genetive
+# <def>    # Definite
+# <ind>    # Indefinite
+# <dem>    # Demonstrative
+# <ing>    # Interrogative
+# <incl>   # Inclusive
+# <subj>   # Subject
+# <obj>    # Object
+
+# <sent>   # Sentence-ending punctuation
+# <guio>   # Hyphen
+# <cm>     # Comma
+# <apos>   # Apostrophe
+# <quot>   # Quotation mark
+# <lquot>  # Left quotation mark
+# <rquot>  # Right quotation mark
+# <lpar>   # Left parenthesis
+# <rpar>   # Right parenthesis
+
+# Number morphology
+# <pl>  # Plural
+# <sg>  # Singular
+
+# Distance morphology
+# <prx>    # Porximate
+# <dst>    # Distant
+
+#Gender morphology
+# <m>      # Male
+# <f>      # Female
+
+# Verbs
+# <vkaia>  # to be verb
+# <inf>    # infinitive
+# <p1>     # 1st person
+# <p2>     # 2nd person
+# <p3>     # 3rd person
+# <past>   # Past
+# <pprs>   # Present Participle aka Present 1
+# <pres>   # Present
+# <fut>    # Future
+# <ffi>    # Future Absolute/Definite
+# <neg>    # Negative
+
+# Adjective morphology
+# <comp>   # Comparative for inferiority, superiority, and equality
+
+# <cnjcoo> # Co-ordinating conjunction
+
+# Other symbols
+# Morpheme boundary
+
+###############################################################################
+###                       M O R P H O T A C T I C S                         ###
+###############################################################################
+
+PATTERNS
+Nouns
+Verbs
+Punctuation
+Determiners(1) [ <det>: ] Determiners(2):
+Pronouns(1) [ <prn>: ] Pronouns(2):
+Adverbs [ <adv>: ]
+Adjectives [ <adj>: ]
+Postpositions [ <post>: ]
+Exclamation
+Conjunctions [ <cnjcoo>: ]
+
+PATTERN Nouns
+N-Stems [ <n>: ] (Possession | Genitive)?
+N-Stems [ <n>+ra<post>:ra ]
+
+PATTERN Verbs
+
+V-Stems [ <v>: ]
+V-Stems [ <v>: ] V-Tenses
+V-Kaia
+V-Irr(1) [ <v>: ] V-Irr(2):
+
+
+###############################################################################
+###                          L E X I C O N                                  ###
+###############################################################################
+
+LEXICON N-Stems
+
+aian:aian               # "iron"
+aras:aras               # "horse"
+baisikil:baisikil       # "bicycle"
+bîp:bîp                 # "cow/beef"
+buk:buk                 # "book"
+cuartocana:cuartocana   # "room"
+daktar:daktar           # "doctor"
+dur:dur                 # "door"
+gabament:gabament       # "government"
+gul:gul                 # "gold"
+hotel:hotel             # "hotel"
+ilili:ilili             # "shark"
+insla:insla             # "farm"
+kalila:kalila           # "chicken"
+luhpia:luhpia           # "child" (someone's child)
+mani:mani               # "summer; year"
+mango:mango             # "mango"
+pata:pata               # "meal"
+piu:piu                 # "time"
+piua:piua               # "season"
+plis:plis               # "place/area"
+pleiski:pleiski         # "place"
+plun:plun               # "food"
+praidi:praidi           # "Friday"
+prais:prais             # "cost/price"
+rais:rais               # "Rice/grain"
+rum:rum                 # "room"
+tibil:tibil             # "table"
+timia:timia             # "night"
+titan:titan             # "morning"
+tutni:tutni             # "afternoon"
+tuktan:tuktan           # "child"
+sika:sika               # "medicine"
+siknis:siknis           # "sickness (maybe allergy)"
+wîna:wîna               # "meat/flesh"
+yabal:yabal             # "road/street"
+yauhka:yauhka           # "tomorrow"
+
+# ADDED HERE
+
+plum:plum               # "food"
+sopa:sopa               # "cup"
+taim:taim               # "time"
+tispun:tispun           # "spoon"
+tootnipata:tootnipata   # "dinner"
+tiru:tiru               # "knife"
+triso:triso             # "fork"
+ulta:ulta               # "cup"
+aiya:aiya               # "corn"
+bir:bir                 # "beer"
+brid:brid               # "bread"
+chocolatei:chocolatei   # "chocolate"
+danlei:danlei           # "honey"
+fruta:fruta             # "fruit"
+hamon:hamon             # "ham"
+inska:inska             # "fish (food)"
+keiso:keiso             # "cheese"
+kitkumans:kitkumans     # "dessert"
+lat:lat                 # "butter/oil"
+lobsta:lobsta           # "lobster"
+mahabra:mahabra         # "egg"
+papas:papas             # "potatoes"
+piper:piper             # "pepper"
+reis:reis               # "rice"
+shugar:shugar           # "sugar"
+bookit:bookit           # "can liked canned goods"
+bridakisabriska:bridakisabriska # "bakery"
+huico:huico             # "fish (animal)"
+sap:sap                 # "shop"
+sula:sula               # "deer"
+cuarto:cuarto           # "room"
+katrri:katrri           # "bed"
+ki:ki                   # "key"
+timia:timia             # "night"
+duri:duri               # "small boat"
+licien:licien           # "license"
+pleem:pleem             # "airplane"
+tren:tren               # "train"
+truk:truk               # "truck"
+yabal:yabal             # "road"
+aikam:aikam             # "left"
+smiskam:smiskam         # "right"
+apis:apis               # "office"
+banco:banco             # "bank"
+koreiyo:koreiyo         # "post office"
+direksion:direksion     # "address"
+market:market           # "market"
+polis:polis             # "police"
+skool:skool             # "school"
+telecor:telecor         # "telephone"
+cigarette:cigarette     # "cigarette"
+bootch:bootch           # "boots"
+ion:ion                 # "metal"
+cuala:cuala             # "cloth"
+prak:prak               # "dress"
+pencil:pencil           # "pen"
+royo:royo               # "film"
+tat:tat                 # "tat"
+tow:tow                 # "towel"
+trous:trous             # "trousers"
+watch:watch             # "watch"
+mochila:mochila         # "backpack"
+liar:liar               # "lawyer"
+pana:pana               # "friend"
+yanmamiki:yanmamiki     # "mother"
+yanpapiki:yanpapiki     # "father"
+tuktan:tuktan           # "child"
+lanka:lanka             # "sister"
+manuka:manuka           # "brother"
+lukpa:lukpa             # "kid"
+practis:practis         # "practice"
+
+smasmalkra:smasmalkra     # teacher
+tiara:tiara               # teenage-age girl
+wahma:wahma               # teenage-age boy
+upla:upla                 # people
+abiung:abiung             # plane
+kiamka:kiamka             # relatives
+andris:andris             # orange
+bip:bip                   # cow
+kabu:kabu                 # sea
+yabal:yabal               # road
+lî:lî                     # water
+mani:mani                 # year
+krikri:krikri             # bed
+kwirku:kwirku             # pig
+kipla:kipla               # rock
+tailet:tailet             # toilet
+atkisa:atkisa             # speciality (dish)
+economia:economia         # economy
+drogas:drogas             # drugs
+educacion:educacion       # education
+imsa:imsa                 # equality
+politic:politic           # politics
+kabu:kabu                 # ocean
+tingni:tingni             # river
+uwalpa:uwalpa             # rock
+lagun:lagun               # lake
+timo:timo                 # shade
+dus:dus                   # plants
+sililma:sililma           # star
+tairi:tairi               # mosquito
+powta:powta               # firewood
+warakapo:warakapo         # unemployment
+warailal:warailal         # employment
+
+mairin:mairin       # "woman"
+waitna:waitna       # "man"
+wainhka:wainhka     # "male animal"
+
+natka:natka         # way of
+raitka:raitka       # truth
+lâka:lâka           # law/regulation
+indian:indian       # indian
+tânka:tânka         # meaning
+ulbanka:ulbanka     # writing
+kulkanka:kulkanka   # calculation
+gabamint:gabamint   # government
+sât:sât             # class
+sut:sut             # everything
+lâ:lâ               # law
+dukia:dukia         # belonging
+uplika:uplika       # neighbor
+iwanka:iwanka       # way of life
+daukanka:daukanka   # fact/incident
+wark:wark           # work
+lalah:lalah         # monkey
+tasbaya:tasbaya     # land
+aisi:aisi           # speaking
+lukanka:lukanka     # belief
+brih:brih           # having
+warkka:warkka       # worker
+sinska:sinska       # intelligence
+kuntri:kuntri       # country
+nahki:nahki         # how
+yus:yus             # use
+
+#Inalienable Nouns
+apa:apa                   # tooth
+bila:bila                 # mouth
+taya:taya                 # skin / extended family
+tawa:tawa                 # hair
+lal:lal                   # head
+biara:biara               # stomach
+mina:mina                 # foot
+mita:mita                 # hand
+kakma:kakma               # nose
+kiama:kiama               # ear
+tiala:tiala               # nipple
+un:un                     # lip
+kiskamka:kiskamka         # kidney
+auya:auya                 # liver
+kupia:kupia               # heart
+nina:nina                 # back
+nakra:nakra               # eye
+karma:karma               # throat
+
+#Kinship Terms
+aisa:aisa                 # "father"
+yapti:yapti               # "mother"
+dama:dama                 # "grandfather"
+kuka:kuka                 # "grandmother"
+almuk:almuk               # "elder"
+
+LEXICON Possession
+<px1sg>:>ki
+<px2sg>:>kam
+<px3sp>:>ka             # follows 'ai'
+<px1pl>:>ka             # specifically follows 'wan'
+
+LEXICON Genitive
+<gen>:>ka
+
+LEXICON V-Stems
+
+aiwanaia:aiwan          # "to sing"
+alkaia:alk              # "to get"
+briaia:bri              # "to have"
+buaia:bu                # "to rise"
+daukaia:dauk            # "to make"
+diaia:di                # "to drink"
+ikaia:ik                # "to kill"
+irbaia:irb              # "to brush past/shave/tear apart with a machete"
+kaikaia:kaik            # "to see"
+lukaia:luk              # "to think"
+munaia:mun              # "to make/to cause/to test out"
+pâlaia:pâl              # "to fly/jump/get furious"
+piaia:pi                # "to eat"
+prukaia:pruk            # "to hit"
+pulaia:pul              # "to play"
+takaia:tak              # "to leave / to appear"
+takaskaia:takask        # "to stay"
+wiaia:wi                # "to say"
+wapaia:wap              # "to walk"
+yapaia:yap              # "to sleep"
+swiaia:swi              # to leave
+yawaia:yaw              # to swim
+mangkaia:mangk          # to plant
+inaia:in                # to cry
+yabaia:yab              # to give
+lihkaia:lihk            # to like
+kangbaia:kangb          # to play
+
+LEXICON V-Kaia
+
+kaia<part>:lika         # a particle to mark a sentence topic
+
+kaia<vkaia><inf>:kaia
+
+kaia<vkaia><past><p1>:kapri
+kaia<vkaia><past><p2>:kapram
+kaia<vkaia><past><p3>:kan
+
+kaia<vkaia><pres><p1>:sna
+kaia<vkaia><pres><p2>:sma
+kaia<vkaia><pres><p3>:sa
+
+kaia<vkaia><fut><p1>:kamna
+kaia<vkaia><fut><p2>:kama
+kaia<vkaia><fut><p3>:kabia
+
+kaia<vkaia><ffi><p1>:kaisna
+kaia<vkaia><ffi><p2>:kaisma
+kaia<vkaia><ffi><p3>:kaisa
+
+LEXICON V-Irr(2)
+
+yaia:yaia   <inf>
+
+yaia:isna   <pres><p1>
+yaia:isma   <pres><p2>
+yaia:isa    <pres><p3>
+
+yaia:yari   <past><p1>
+yaia:yaram  <past><p2>
+yaia:yan    <past><p3>
+
+LEXICON V-Tenses
+
+<inf>:aia
+
+<past><p1>:>ri
+<past><p2>:>ram
+<past><p3>:>{A}n
+
+<pprs><p1>:>{S}una
+<pprs><p2>:>{S}uma
+<pprs><p3>:>{S}uya
+
+<pres><p1>:>{I}sna
+<pres><p2>:>{I}sma
+<pres><p3>:>{I}sa
+
+<pres><neg>:>ras
+
+<fut><p1>:>{A}mna
+<fut><p2>:>ma
+<fut><p3>:>bia
+
+<ffi><p1>:>aisna
+<ffi><p2>:>aisma
+<ffi><p3>:>aisa
+
+LEXICON Pronouns(2)
+
+yang:yang       <subj><p1>              # "I"
+man:man         <subj><p2>              # "You"
+witin:witin     <subj><p3>              # "He/She/It"
+yawan:yawan     <subj><p1><pl><incl>    # "I + You"
+
+ai:ai           <obj><p1>               # "me"
+mai:mai         <obj><p2>               # "you"
+wan:wan         <obj><p1><pl><incl>     # "us"
+
+wan:wan         <pos><p1><pl><incl>     # "our"
+ai:ai           <pos><p3>               # "his/her/its"
+
+
+LEXICON Exclamation
+monin:monin         # "hello"
+
+LEXICON Adverbs
+
+apia:apia                 # "not"
+kau:kau
+wiria:wiria
+pat:pat                   # "already"
+kau:kau                   # yet
+yauhka:yauhka             # tomorrow
+latara:latara             # outside
+leihura:leihura           # far
+mawanra:mawanra           # in front
+ninara:ninara             # behind
+tilara:tilara             # middle of
+bilara:bilara             # inside
+mayara:mayara             # below
+tanira:tanira             # near
+saura:saura               # badly
+sin:sin                   # also
+baku:baku                 # as/like
+kaina:kaina               # before
+aikuki:aikuki             # together
+
+bâra:bâra                 # there
+ban:ban                   # still
+
+LEXICON Postpositions
+ra:ra           # "to, in, at, on"
+wal:wal         # "with"
+wina:wina       # "from"
+kat:kat         # until
+kaka:kaka       # if
+tani:tani       # beside
+
+LEXICON Adjectives
+
+blu:blu         # "blue"
+damni:damni     # "sweet"
+kumi:kumi       # "one"
+mana:mana       # "expensive"
+pain:pain       # "good/lovely/pretty"
+pali:pali       # "very, especially"
+pâli:pâli       # "flying/jumping"
+pauni:pauni     # "red"
+raya:raya       # "new"
+ridi:ridi       # "ready"
+sangni:sangni   # "green"
+siksa:siksa     # "black"
+sirpi:sirpi     # "small"
+yamni:yamni     # "good"
+praut:praut           # angry
+sangni:sangni         # green or clear
+damnei:damnei         # sweet
+laonza:laonza         # dry
+muswan:muswan         # wet
+riawisa:riawisa       # rainy
+ubalapta:ubalapta     # sunny
+ubapayaska:ubapayaska # windy
+wala:wala             # other
+mairin:mairin       # "woman/female"
+waitna:waitna       # "man/male"
+wainhka:wainhka     # "male animal"
+tara:tara           # big
+blasi:blasi         # ancient
+sip:sip             # capable
+silp:silp           # for oneself
+âpu:âpu             # zero
+kumi:kumi           # one
+wal:wal             # two
+yumpha:yumpha       # three
+matsip:matsip       # five
+matawalsip          # ten
+pri:pri             # free
+sim:sim             # same
+nahki:nahki         # how
+wala:wala           # other
+kunhku:kunhku       # short
+
+
+LEXICON Determiners(2)
+
+ahkia:ahkia         <itg>           # "which"
+an:an               <itg>           # "how much/how many"
+ani:ani             <itg>           # "which"
+ansa:ansa           <itg>           # "where"
+dia:dia             <itg>           # "what"
+dîa:dîa             <itg>
+nahkia:nahkia       <itg>           # "how"
+ya:ya               <itg>           # "who"
+
+ba:ba               <def><dst>      # "the"
+na:na               <def><prx>      # "the (could be translated as this)"
+
+naha:naha           <dem><prx>      # "this (closer to speaker)"
+baha:baha           <dem>           # "this (could be translated as that)"
+naura:naura         <dem>           # "that"
+bukra:bukra         <dem><dst>      # "that (farther from speaker)"
+
+nani:nani           <pl>            # "plural marker"
+ap:ap               <ind>           # "some"
+kum\ kum:kum\ kum   <ind>           # "a/some"
+
+LEXICON Conjunctions
+
+bara:bara               # "and"
+dukiara:dukiara         # about/for
+o:o                     # or
+
+LEXICON Punctuation
+
+.<sent>:.
+..<sent>:..
+...<sent>:...
+;<sent>:;
+\:<sent>:\:
+!<sent>:!
+-<guio>:-
+—<guio>:—
+,<cm>:,
+?<sent>:?
+'<apos>:'
+"<quot>:"
+«<lquot>:«
+»<rquot>:»
+”<rquot>:”
+“<lquot>:“
+(<lpar>:(
+\]<rpar>:\]
+\[<lpar>:\[
+)<rpar>:)
+\\<sent>:\\
+\/<sent>:\/
+
+
+
+
+# Resources:
+# https://github.com/apertium/lexd/blob/master/Usage.md
+# https://wiki.apertium.org/wiki/List_of_symbols
+# http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+# http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+# http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+# https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+# https://github.com/hfst/
+# http://wiki.apertium.org/wiki/Hfst
